@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1053091863947",
+    "firebase_url": "https://kinga-jamii.firebaseio.com",
+    "project_id": "kinga-jamii",
+    "storage_bucket": "kinga-jamii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053091863947:android:39a272e0f44fa419dba38e",
+        "android_client_info": {
+          "package_name": "com.example.kingajamii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053091863947-1lfa5trgla3k2r2p62amcbbnqiaf2u3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMMOZiiVsv3s1pSu_ZzKRFabwXcwMWzZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053091863947-1lfa5trgla3k2r2p62amcbbnqiaf2u3e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyPhoneNumber"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/nyeri"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="130dp"
+            android:fontFamily="@font/bangers"
+            android:text="Verify Phone Number"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Verification Code if not Automatically Authenticated."
+            android:textAlignment="center"
+            android:textColor="#0F170A"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="50dp">
+
+            <EditText
+                android:hint="Enter OTP"
+                android:id="@+id/verification_code_entered_by_user"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <Button
+                android:background="#fece2f"
+                android:id="@+id/verify_btn"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Verify" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+</ScrollView>
